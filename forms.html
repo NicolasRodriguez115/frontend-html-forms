@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <section>
+    <h1>1. Exploring New HTML5 Input Types</h1>
+
+    <h2>Implementing Email Input</h2>
+    <label for="email">Enter your email:</label>
+    <input type="emai" id="email" name="email" required>
+    <input type="submit" value="Submit">
+    
+    <h2>Utilizing Number Input</h2>
+    <label for="number">Please enter a quantity:</label>
+    <input type="number" id="number" name="number" min="1" max="100">
+
+    <h2>Employing Date Input</h2>
+    <label for="date">Please select your date of birth:</label>
+    <input type="date" id="date" name="date" min="2006-01-01">
+
+    <h2>Capturing Color with Color Input</h2>
+    <label for="color">Select a color:</label>
+    <input type="color" name="color" id="color" value="#ff0000">
+    </section>
+
+    <section>
+        <h1>2. Building a Comprehensive Web Form</h1>
+
+        <h2>Creating a Selection Experience</h2>
+        <label for="programming-language">Choose your favorite language:</label>
+        <select id="programming-language" name="programming-language">
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="java">Java</option>
+        </select>
+        <br>
+
+        <p>Expertise level:</p>
+        <label>
+            <input type="radio" name="expertise" value="beginner"> Beginner
+        </label>
+        <label>
+            <input type="radio" name="expertise" value="intermediate"> Intermediate
+        </label>
+        <label>
+              <input type="radio" name="expertise" value="advanced"> Advanced
+        </label>
+        <br>
+
+        <p>Preferred Development platforms:</p>
+        <label for="development-platforms">Choose your preferred development platform:</label>
+        <input type="checkbox" name="platform" value="web" aria-label="Web"> Web
+        <input type="checkbox" name="platform" value="mobile" aria-label="Mobile" >Mobile
+        <input type="checkbox" name="platform" value="desktop"aria-label="Desktop"> Desktop
+
+
+          
+
+    </section>
+    
+
+</body>
+</html> 
